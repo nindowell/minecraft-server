@@ -1,4 +1,4 @@
-## To attach to server console
+## To attach to minecraft server console
 
 ```bash
 docker attach `containerid`
