@@ -25,6 +25,7 @@ services:
       ONLINE_MODE: "FALSE"
       # Allow flight to avoid unexpected server kick
       ALLOW_FLIGHT: "TRUE"
+      VIEW_DISTANCE: 10
     volumes:
-      - /root/mc:/data
-    restart: always
+      - <your_current_path>/:/data
+    restart: unless-stopped
