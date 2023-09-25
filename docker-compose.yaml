@@ -27,4 +27,4 @@ services:
       ALLOW_FLIGHT: "TRUE"
     volumes:
       - /root/mc:/data
-    restart: on-failure:3
+    restart: always
